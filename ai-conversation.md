@@ -6,7 +6,7 @@ Full conversation permalink: see `REFLECTION.md`.
 
 ---
 
-This is a AI summary of the conversation found in REFLECTION.md. To see the full original conversation follow the link in the designated file. 
+This is an AI summary of the conversation found in REFLECTION.md. To see the full original conversation follow the link in the designated file. 
 
 ---
 
