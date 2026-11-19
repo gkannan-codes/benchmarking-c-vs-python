@@ -1,0 +1,8 @@
+# compiled binaries
+src/matmul_O0
+src/matmul_O2
+src/dce_demo
+*.o
+*.s
+__pycache__/
+.DS_Store
