@@ -6,6 +6,10 @@ Full conversation permalink: see `REFLECTION.md`.
 
 ---
 
+This is a AI summary of the conversation found in REFLECTION.md. To see the full original conversation follow the link in the designated file. 
+
+---
+
 ### 1. Getting oriented
 
 **Me:** I'm in COMP 211 (systems: C, memory, caches, processes). My final topic is benchmarking C vs. Python.
