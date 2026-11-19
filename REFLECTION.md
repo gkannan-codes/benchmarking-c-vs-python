@@ -1,7 +1,7 @@
 # Written Reflection: Using AI to Learn Performance Benchmarking
 
 **Gokul Kannan · COMP 211 · Fall 2026**
-**AI conversation permalink:** `PASTE-PERMALINK-HERE`
+**AI conversation permalink:** `[PASTE-PERMALINK-HERE](https://claude.ai/share/083b2d33-3bbb-4599-aed6-4aac4b4d57b6)`
 
 I mostly used Claude like a tutor I could argue with. I started by asking for a short checklist of what makes a benchmark trustworthy, just so I had something to go off of before writing any code. After that I fell into a pattern: ask a question, write a quick experiment to check the answer, then bring my numbers back and ask the AI to explain them. For example, it told me the shell's time command includes startup time, so I measured it and found Python takes about 13 ms just to start, compared to about 1 ms for C. I honestly didn't believe a compiler could delete my loop, so I pushed back on that one, and then wrote a small demo where -O2 turned a 0.24 second loop into basically zero. The most useful moment was when my data contradicted the AI. It said -O2 is usually several times faster than -O0, but at N = 1024 it wasn't faster at all. Asking why led me to cache misses from walking down a column, which is straight out of the memory hierarchy unit in COMP 211. I then tried swapping the loop order myself and got a 13x speedup. I also caught a claim that was weaker than it sounded: warm-up was supposed to matter, but for regular Python it only made about a 2% difference.
 
